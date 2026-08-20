@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Penimireddy Madhavi Latha - Data Engineer Portfolio">
+
+    <meta name="keywords"
+          content="Data Engineer, Python, SQL, PySpark, GCP, BigQuery, Airflow, Pub/Sub">
+
+    <meta name="author"
+          content="Penimireddy Madhavi Latha">
+
+    <title>Madhavi Latha | Data Engineer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="header">
+
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            ML<span>.</span>
+        </a>
+
+        <button class="menu-btn" id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#internship">Internship</a>
+            </li>
+
+            <li>
+                <a href="#certifications">Certifications</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+        <button id="theme-toggle" class="theme-btn">
+            <i class="fas fa-moon"></i>
+        </button>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <p class="intro">
+                Hello, I'm
+            </p>
+
+            <h1>
+                Penimireddy <span>Madhavi Latha</span>
+            </h1>
+
+            <h2>
+                Aspiring Data Engineer
+            </h2>
+
+            <p class="hero-description">
+                I build data pipelines, transform large datasets,
+                and work with cloud-based data engineering technologies
+                to turn raw data into reliable and meaningful insights.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                     <a href="assets/Madhavi_Latha_Resume.pdf"
+                         class="btn secondary-btn resume-cta"
+                         download>
+                    Download Resume
+                    <i class="fas fa-download"></i>
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/"
+                   target="_blank"
+                   aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:yourmail@gmail.com"
+                   aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="code-window">
+
+                <div class="window-header">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <p>data_engineer.py</p>
+
+                </div>
+
+                <div class="code-content">
+
+                    <p>
+                        <span class="keyword">class</span>
+                        <span class="class-name">
+                            DataEngineer
+                        </span>:
+                    </p>
+
+                    <p class="indent">
+                        skills = [
+                    </p>
+
+                    <p class="indent2">
+                        "Python",
+                    </p>
+
+                    <p class="indent2">
+                        "SQL",
+                    </p>
+
+                    <p class="indent2">
+                        "PySpark",
+                    </p>
+
+                    <p class="indent2">
+                        "GCP",
+                    </p>
+
+                    <p class="indent2">
+                        "BigQuery",
+                    </p>
+
+                    <p class="indent2">
+                        "Airflow",
+                    </p>
+
+                    <p class="indent">
+                        ]
+                    </p>
+
+                    <p>
+                        <span class="keyword">return</span>
+                        <span class="string">
+                            "Building Data Pipelines"
+                        </span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>01.</span>
+
+            <h2>About Me</h2>
+
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-image">
+
+                <div class="image-container">
+
+                    <img src="assets/profile.jpg"
+                         alt="Madhavi Latha">
+
+                </div>
+
+            </div>
+
+
+            <div class="about-text">
+
+                <h3>
+                    Building reliable data pipelines
+                </h3>
+
+                <p>
+                    I am an aspiring Data Engineer with a strong
+                    interest in building scalable data pipelines,
+                    data processing workflows, and cloud-based
+                    data solutions.
+                </p>
+
+                <p>
+                    My current technical focus includes Python,
+                    SQL, PySpark, Google Cloud Platform, BigQuery,
+                    Apache Airflow, Pub/Sub and data pipeline
+                    development.
+                </p>
+
+                <p>
+                    I enjoy understanding how data moves from
+                    source systems through ingestion and
+                    transformation into analytics-ready datasets.
+                </p>
+
+                <div class="about-stats">
+
+                    <div class="stat">
+                        <h4>Python</h4>
+                        <p>Programming</p>
+                    </div>
+
+                    <div class="stat">
+                        <h4>SQL</h4>
+                        <p>Data Querying</p>
+                    </div>
+
+                    <div class="stat">
+                        <h4>GCP</h4>
+                        <p>Cloud Platform</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section skills-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>02.</span>
+
+            <h2>Technical Skills</h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <!-- Programming -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <h3>Programming</h3>
+
+                <div class="skill-tags">
+
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Bash</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Big Data -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+
+                <h3>Big Data</h3>
+
+                <div class="skill-tags">
+
+                    <span>Apache Spark</span>
+                    <span>PySpark</span>
+                    <span>HDFS</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Cloud -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+
+                <h3>Cloud</h3>
+
+                <div class="skill-tags">
+
+                    <span>Google Cloud</span>
+                    <span>BigQuery</span>
+                    <span>Cloud Storage</span>
+                    <span>Pub/Sub</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Orchestration -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-gears"></i>
+                </div>
+
+                <h3>Data Engineering</h3>
+
+                <div class="skill-tags">
+
+                    <span>ETL</span>
+                    <span>ELT</span>
+                    <span>Apache Airflow</span>
+                    <span>Data Pipelines</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Databases -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-table"></i>
+                </div>
+
+                <h3>Databases</h3>
+
+                <div class="skill-tags">
+
+                    <span>MySQL</span>
+                    <span>BigQuery</span>
+                    <span>SQL</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Tools -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-toolbox"></i>
+                </div>
+
+                <h3>Tools</h3>
+
+                <div class="skill-tags">
+
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Docker</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SOFT SKILLS ================= -->
+
+<section id="soft-skills" class="section soft-skills-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>02.1</span>
+
+            <h2>Soft Skills</h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <!-- Communication -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+
+                <h3>Communication</h3>
+
+                <div class="skill-tags">
+
+                    <span>Clear Documentation</span>
+                    <span>Presentations</span>
+                    <span>Stakeholder Management</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Problem Solving -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+
+                <h3>Problem Solving</h3>
+
+                <div class="skill-tags">
+
+                    <span>Analytical Thinking</span>
+                    <span>Debugging</span>
+                    <span>Critical Analysis</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Teamwork -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-people-group"></i>
+                </div>
+
+                <h3>Teamwork</h3>
+
+                <div class="skill-tags">
+
+                    <span>Collaboration</span>
+                    <span>Coordination</span>
+                    <span>Agile Methodologies</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Time Management -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+
+                <h3>Time Management</h3>
+
+                <div class="skill-tags">
+
+                    <span>Prioritization</span>
+                    <span>Deadline Management</span>
+                    <span>Multitasking</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>03.</span>
+
+            <h2>Featured Projects</h2>
+
+        </div>
+
+        <p class="section-description">
+            A selection of data engineering projects demonstrating
+            data ingestion, transformation, processing,
+            orchestration and cloud technologies.
+        </p>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+
+                        <a href="#"
+                           aria-label="GitHub repository">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                           aria-label="Live project">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    GCP Data Engineering Pipeline
+                </h3>
+
+                <p>
+                    Designed an end-to-end data pipeline that
+                    ingests raw data, stores it in cloud storage,
+                    transforms it using PySpark and loads
+                    analytics-ready data into BigQuery.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Python</span>
+                    <span>PySpark</span>
+                    <span>GCS</span>
+                    <span>BigQuery</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    PySpark ETL Pipeline
+                </h3>
+
+                <p>
+                    Built a batch ETL pipeline using PySpark to
+                    clean, transform and aggregate large datasets.
+                    Implemented DataFrame operations,
+                    partitioning and optimized transformations.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Python</span>
+                    <span>PySpark</span>
+                    <span>SQL</span>
+                    <span>HDFS</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Real-Time Data Pipeline
+                </h3>
+
+                <p>
+                    Developed a real-time data ingestion architecture
+                    using Pub/Sub for event ingestion and downstream
+                    processing for analytics workloads.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>GCP</span>
+                    <span>Pub/Sub</span>
+                    <span>Python</span>
+                    <span>BigQuery</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <i class="far fa-folder-open folder-icon"></i>
+
+                    <div>
+
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h3>
+                    Automated Airflow Pipeline
+                </h3>
+
+                <p>
+                    Created an Airflow DAG to automate an ETL
+                    workflow including data extraction,
+                    transformation, validation and loading.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Airflow</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>BigQuery</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" class="section education-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>04.</span>
+
+            <h2>Education</h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        2022 — 2026
+                    </span>
+
+                    <h3>
+                        Rajamahendri Institute of Engineering and Technology
+                    </h3>
+
+                    <h4>
+                        <span class="highlight">B.Tech</span>
+                    </h4>
+
+                    <h4>
+                        <span class="highlight">Computer Science & Engineering (Data Science)</span>
+                    </h4>
+
+                    <h4>
+                        <span class="highlight">CGPA: 8.31/10</span>
+                    </h4>
+
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INTERNSHIP ================= -->
+
+<section id="internship" class="section internship-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>05.</span>
+
+            <h2>Internship</h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        May 2025 – July 2025
+                    </span>
+
+                    <h3>
+                        Data Engineering Intern
+                    </h3>
+
+                    <h4>
+                        Miracle Software Solutions
+                    </h4>
+
+                    <div class="internship-role">
+                        <strong>Role</strong>
+                        <p>Assisted in designing and implementing data engineering solutions for processing and managing structured datasets.</p>
+                    </div>
+
+                    <div class="internship-responsibilities">
+                        <strong>Responsibilities</strong>
+                        <ul>
+                            <li>Collected, cleaned, and transformed raw datasets using Python and SQL.</li>
+                            <li>Developed ETL workflows for extracting, transforming, and loading data into relational databases.</li>
+                            <li>Optimized SQL queries for efficient data retrieval and reporting.</li>
+                            <li>Performed data validation and preprocessing to ensure data quality.</li>
+                            <li>Worked with relational databases and version control using Git.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        may 2024 - Aug 2024
+                    </span>
+
+                    <h3>
+                        Django Intern
+                    </h3>
+
+                    <h4>
+                        ExcelR
+                    </h4>
+
+                    <div class="internship-role">
+                        <strong>Role</strong>
+                        <p>Developed backend web applications using Django and implemented database-driven functionalities.</p>
+                    </div>
+
+                    <div class="internship-responsibilities">
+                        <strong>Responsibilities</strong>
+                        <ul>
+                            <li>Built CRUD applications using Django ORM.</li>
+                            <li>Designed and managed MySQL database tables.</li>
+                            <li>Implemented user authentication and authorization modules.</li>
+                            <li>Developed RESTful APIs and integrated backend services.</li>
+                            <li>Collaborated using Git for version control.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESUME ================= -->
+
+<section class="resume-section">
+
+    <div class="container resume-container">
+
+        <p class="small-title">
+            Interested in my profile?
+        </p>
+
+        <h2>
+            Let's build something with data.
+        </h2>
+
+        <p>
+            Download my resume to learn more about my
+            education, skills and projects.
+        </p>
+
+          <a href="assets/Madhavi_Latha_Resume.pdf"
+              class="btn primary-btn resume-cta"
+              download>
+            Download Resume
+            <i class="fas fa-download"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications" class="section certifications-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>06.</span>
+
+            <h2>Certifications</h2>
+
+        </div>
+
+        <div class="certifications-grid">
+
+            
+
+            <div class="cert-card" data-pdf="assets/animation certificate.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Animation Certificate</h3>
+                <p>Professional Development</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            
+
+            <div class="cert-card" data-pdf="assets/Data Analytics with Python_nptel.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Data Analytics with Python</h3>
+                <p>NPTEL - National Program on Technology Enhanced Learning</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/UNICEF certificate.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>UNICEF Certificate</h3>
+                <p>Professional Development</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/nasa certificate.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>NASA Certificate</h3>
+                <p>Space Education Program</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/python for data science.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Python for Data Science</h3>
+                <p>Advanced Python Training</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/udemy python certificate.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Python Mastery</h3>
+                <p>Udemy Online Course</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+           
+
+            <div class="cert-card" data-pdf="assets/angular.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Angular Certificate</h3>
+                <p>Web Development Framework</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            
+            <div class="cert-card" data-pdf="assets/Cisco intr to cyber_madhavi.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Cisco Introduction to Cybersecurity</h3>
+                <p>Cisco Networking Academy</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/Cisco nw basics_madhavi.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Cisco Network Basics</h3>
+                <p>Cisco Networking Academy</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/Cisco p1_madhavi.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Cisco CCNA Part 1</h3>
+                <p>Cisco Networking Academy</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/CISCO P2_madhavi.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Cisco CCNA Part 2</h3>
+                <p>Cisco Networking Academy</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/EXCELR-91252-Penimireddy Madhavi Latha.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>ExcelR Certificate</h3>
+                <p>Professional Development</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/great learning certificate.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Great Learning Certificate</h3>
+                <p>Online Learning Platform</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/hp ds and da _madhavi.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>HP Data Science & Data Analytics</h3>
+                <p>Data Science Training</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/livetech fullstack python certificate.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>LiveTech Fullstack Python</h3>
+                <p>Web Development Training</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/security and operation certificate.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Security and Operations</h3>
+                <p>Security Training</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+            <div class="cert-card" data-pdf="assets/tata IAM forage.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Tata IAM Forage</h3>
+                <p>Identity & Access Management</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+           
+
+            <div class="cert-card" data-pdf="assets/Certificate of be10x ai.pdf" data-type="pdf">
+                <div class="cert-icon-wrapper">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>BE10X AI Certificate</h3>
+                <p>Artificial Intelligence Training</p>
+                <div class="cert-actions">
+                    <div class="cert-action cert-view"><i class="fas fa-eye"></i></div>
+                    <div class="cert-action cert-download"><i class="fas fa-download"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section contact-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>05.</span>
+
+            <h2>Get In Touch</h2>
+
+        </div>
+
+        <div class="contact-content">
+
+            <div class="contact-text">
+
+                <h3>
+                    Let's connect
+                </h3>
+
+                <p>
+                    I am open to opportunities, internships,
+                    collaborations and conversations related
+                    to Data Engineering.
+                </p>
+
+                <div class="contact-info">
+
+                    <div class="contact-item">
+
+                        <i class="fas fa-envelope"></i>
+
+                        <div>
+                            <span>Email</span>
+                            <a href="mailto:madhavilathapenimireddy
+                             @gmail.com">
+                                madhavilathapenimireddy@gmail.com
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fab fa-linkedin"></i>
+
+                        <div>
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/penimireddy-madhavi-latha-797297298/"
+                               target="_blank">
+                                LinkedIn Profile
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fab fa-github"></i>
+
+                        <div>
+                            <span>GitHub</span>
+                            <a href="https://github.com/madhavi353"
+                               target="_blank">
+                                GitHub Profile
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form class="contact-form"
+                  id="contact-form">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input type="text"
+                           id="name"
+                           placeholder="Your name"
+                           required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input type="email"
+                           id="email"
+                           placeholder="your@email.com"
+                           required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea id="message"
+                              rows="6"
+                              placeholder="Your message..."
+                              required></textarea>
+
+                </div>
+
+
+                <button type="submit"
+                        class="btn primary-btn">
+
+                    Send Message
+
+                    <i class="fas fa-paper-plane"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CERTIFICATE PREVIEW MODAL ================= -->
+
+<div id="cert-modal" class="cert-modal">
+
+    <div class="cert-modal-content">
+
+        <button class="cert-modal-close" id="cert-modal-close">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div class="cert-modal-body">
+
+            <img id="cert-modal-image" class="cert-modal-image" style="display: none;" alt="Certificate Preview">
+
+            <iframe id="cert-modal-pdf" class="cert-modal-pdf" style="display: none;"></iframe>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/madhavi353"
+               target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/penimireddy-madhavi-latha-797297298/"
+               target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:madhavilathapenimireddy@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+        <p>
+            Designed & Built by
+            <strong>Madhavi Latha</strong>
+        </p>
+
+        <p class="copyright">
+            © 2026 Madhavi Latha. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Back to top -->
+
+<button id="back-to-top"
+        class="back-to-top">
+
+    <i class="fas fa-arrow-up"></i>
+
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+ 
